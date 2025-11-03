@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/browser-extention-manager/static/css/main.472dc282.css",
+    "main.js": "/browser-extention-manager/static/js/main.7a2c2a9b.js",
+    "static/media/NotoSans-VariableFont_wdth,wght.ttf": "/browser-extention-manager/static/media/NotoSans-VariableFont_wdth,wght.0e023bdf2fa0b6117356.ttf",
+    "static/media/logo.icon.svg": "/browser-extention-manager/static/media/logo.icon.a887b8f3022c2b45ef77faa6be15bf5c.svg",
+    "index.html": "/browser-extention-manager/index.html",
+    "main.472dc282.css.map": "/browser-extention-manager/static/css/main.472dc282.css.map",
+    "main.7a2c2a9b.js.map": "/browser-extention-manager/static/js/main.7a2c2a9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.472dc282.css",
+    "static/js/main.7a2c2a9b.js"
+  ]
+}

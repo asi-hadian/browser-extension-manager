@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "NotoSans";
+  src: url("./assets/fonts/NotoSans-VariableFont_wdth\,wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "NotoSans";
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.extentionCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.appLight {
+  background-color: #d0e8fa;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.appDark {
+  min-height: 100vh;
+  background: #080b0c; 
+  background: -webkit-linear-gradient(
+    to bottom,
+    #0a222d,
+    #222d31,
+    #0f2027
+  ); 
+  background: linear-gradient(
+    to bottom,
+    #121516,
+    #1f2f35,
+    #34515d
+  ); 
+  color: #fff;
+  transition: all 0.3s ease;
+}
