@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("/data.json")
+      .get("https://asi-hadian.github.io/browser-extension-manager/data.json")
       .then((response) => setData(response.data.data))
       .catch((error) => console.error("خطا در دریافت داده‌ها:", error));
   }, []);
