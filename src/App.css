@@ -20,11 +20,14 @@ body {
   overflow: hidden;
 }
 .extentionCards {
+   max-width: 1200px;
+   margin:0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* مهم‌ترین بخش */
+  /* justify-content:center; */
+   column-gap: 5px;  /* فاصله بین ستون‌ها */
+  row-gap: 20px;     
+  
 }
 
 .appLight {
@@ -50,4 +53,19 @@ body {
   ); 
   color: #fff;
   transition: all 0.3s ease;
+}
+
+
+@media (max-width: 992px) {
+  .extentionCards{
+    display:grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr)); 
+  
+  }
+}
+@media (max-width: 600px) {
+  .extentionCards{
+    display:grid;
+     grid-template-columns: repeat(1, minmax(0, 1fr)); 
+  }
 }

@@ -50,6 +50,7 @@ function App() {
     setIsLightMode(!isLightMode);
   };
   return (
+   
     <div className={isLightMode ? "appLight" : "appDark"}>
       <Navbar onThemeToggle={toggleTheme} isLightMode={isLightMode} />
       <ExtentionList
@@ -71,6 +72,7 @@ function App() {
         ))}
       </div>
     </div>
+  
   );
 }
 

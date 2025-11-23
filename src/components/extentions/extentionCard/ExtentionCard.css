@@ -1,13 +1,6 @@
-.container {
-  max-width: 1200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px; /* فاصله بین کارت‌ها */
-}
+
 .card {
-  width: 400px;
-  height: 150px;
+  height:180px;
   border: 1px solid #fff;
   padding: 10px;
   border-radius: 10px;
@@ -57,15 +50,15 @@
   border: 1px solid gray;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container {
     flex-direction: column; /* کارت‌ها زیر هم */
-    align-items: center; /* وسط‌چین */
-  }
+    /* align-items: center; وسط‌چین */
+  /* } */
 
-  .card {
+  /* .card {
     width: 90%; /* عرض متناسب با صفحه */
-    max-width: 400px;
-    height: auto;
-  }
-}
+    /* max-width: 400px;
+    height: auto; */
+  /* } */ 
+/* } */ 

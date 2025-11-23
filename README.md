@@ -24,7 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./my-app/src/assets/images/desktop-design-dark.jpg)
+![desktop](./src/assets/images/Screenshot%20(8).png)
+![tablet](./src/assets/images/Screenshot%20(9).png)
+![mobile](./src/assets/images/Screenshot%20(10).png)
 
 
 
