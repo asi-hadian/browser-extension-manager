@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("https://raw.githubusercontent.com/asi-hadian/browser-extension-manager/main/data.json")
+      .get("/data.json")
       .then((response) => setData(response.data.data))
       .catch((error) => console.error("خطا در دریافت داده‌ها:", error));
   }, []);
@@ -50,7 +50,6 @@ function App() {
     setIsLightMode(!isLightMode);
   };
   return (
-   
     <div className={isLightMode ? "appLight" : "appDark"}>
       <Navbar onThemeToggle={toggleTheme} isLightMode={isLightMode} />
       <ExtentionList
@@ -72,7 +71,6 @@ function App() {
         ))}
       </div>
     </div>
-  
   );
 }
 
