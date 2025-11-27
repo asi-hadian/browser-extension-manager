@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/browser-extension-manager/static/css/main.7f39ab97.css",
-    "main.js": "/browser-extension-manager/static/js/main.1a6efdcc.js",
+    "main.js": "/browser-extension-manager/static/js/main.571a975c.js",
     "static/media/NotoSans-VariableFont_wdth,wght.ttf": "/browser-extension-manager/static/media/NotoSans-VariableFont_wdth,wght.0e023bdf2fa0b6117356.ttf",
     "static/media/logo.icon.svg": "/browser-extension-manager/static/media/logo.icon.a887b8f3022c2b45ef77faa6be15bf5c.svg",
     "index.html": "/browser-extension-manager/index.html",
     "main.7f39ab97.css.map": "/browser-extension-manager/static/css/main.7f39ab97.css.map",
-    "main.1a6efdcc.js.map": "/browser-extension-manager/static/js/main.1a6efdcc.js.map"
+    "main.571a975c.js.map": "/browser-extension-manager/static/js/main.571a975c.js.map"
   },
   "entrypoints": [
     "static/css/main.7f39ab97.css",
-    "static/js/main.1a6efdcc.js"
+    "static/js/main.571a975c.js"
   ]
 }
